@@ -1,3 +1,14 @@
+# SvelteKit
+.DS_Store
+/build
+/.svelte-kit
+/package
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# MegaLinter
+megalinter-reports/
+
 # Logs
 logs
 *.log

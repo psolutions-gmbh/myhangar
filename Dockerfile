@@ -1,7 +1,7 @@
 FROM node:18.16.0
 ENV NODE_ENV=development
 WORKDIR /usr/src/myhangar
-RUN apt-get update && apt-get install -y --no-install-recommends\
-    yamllint=1.26.0-2 \
-    && rm -rf /var/lib/apt/lists/*
+COPY package.json package-lock.json ./
+RUN npm install
 USER node
+HEALTHCHECK CMD curl -f http://localhost:5173 || exit 1
