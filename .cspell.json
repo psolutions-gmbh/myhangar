@@ -1,0 +1,37 @@
+{
+  "ignorePaths": [
+    "**/node_modules/**",
+    "**/vscode-extension/**",
+    "**/.git/**",
+    "**/.pnpm-lock.json",
+    ".vscode",
+    "megalinter",
+    "package-lock.json",
+    "report"
+  ],
+  "language": "en",
+  "noConfigSearch": true,
+  "words": [
+    "stefanzweifel",
+    "vite",
+    "pids",
+    "jscoverage",
+    "lcov",
+    "wscript",
+    "jspm",
+    "tsbuildinfo",
+    "eslintcache",
+    "stylelint",
+    "stylelintcache",
+    "microbundle",
+    "dotenv",
+    "nuxt",
+    "vuepress",
+    "venv",
+    "myhangar",
+    "npmrc",
+    "htmlhint",
+    "djlint"
+  ],
+  "version": "0.2"
+}
