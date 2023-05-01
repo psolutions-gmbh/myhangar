@@ -21,5 +21,23 @@
     "typescript": "5.0.4",
     "vite": "4.3.3"
   },
+  "jscpd": {
+    "threshold": 0,
+    "reporters": [
+      "html",
+      "markdown"
+    ],
+    "ignore": [
+      "**/node_modules/**",
+      "**/.git/**",
+      "**/.rbenv/**",
+      "**/.venv/**",
+      "**/*cache*/**",
+      "**/.github/**",
+      "**/.idea/**",
+      "**/report/**",
+      "**/*.svg"
+    ]
+  },
   "type": "module"
 }
