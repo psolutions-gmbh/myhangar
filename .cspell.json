@@ -31,7 +31,9 @@
     "myhangar",
     "npmrc",
     "htmlhint",
-    "djlint"
+    "djlint",
+    "tailwindcss",
+    "postcss"
   ],
   "version": "0.2"
 }
